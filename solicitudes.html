@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, viewport-fit=cover">
+    <title>A+V Solicitudes de Material</title>
+    <link href="https://fonts.googleapis.com/css?family=Yantramanav:300,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/animate.css">
+    <script src="https://kit.fontawesome.com/1a30776616.js"></script>
+    <link rel="shortcut icon" type="image/ico" href="src/img/favicon.ico"/>
+    <link rel="manifest" href="manifest.json">
+    <!-- Android -->
+    <meta name="theme-color" content="#078e9a">
+    <!-- IOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" href="src/img/icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="src/img/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="src/img/icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="src/img/icons/icon-152x152.png">
+    <!-- iPhone X (1125px x 2436px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" href="src/img/icons-ios/apple-launch-1125x2436.png">
+    <!-- iPhone 8, 7, 6s, 6 (750px x 1334px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="src/img/icons-ios/apple-launch-750x1334.png">
+    <!-- iPhone 8 Plus, 7 Plus, 6s Plus, 6 Plus (1242px x 2208px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)" href="src/img/icons-ios/apple-launch-1242x2208.png">
+    <!-- iPhone 5 (640px x 1136px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="src/img/icons-ios/apple-launch-640x1136.png">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="A+V Solicitudes">
+</head>
+<body>
+    <header>
+        <img src="src/img/logo.png" alt="Logo" class="logo-head">
+        <span id="burger_menu" class="btn btn-menu"><i class="fa fa-bars"></i></span>
+    </header>
+
+    <div id="menu" class="menu oculto animated fadeInRight faster">
+        <span id="menu_close" class="btn btn-menu"><i class="fa fa-times"></i></span>
+        <nav>
+            <span class="btn btn-nav" onclick="javascript:location.href='solicitudes.html'">Solicitudes de Material</span>
+            <span class="btn btn-nav" onclick="javascript:location.href='seguimiento-envios.html'">Seguimiento de Envíos</span>
+            <span class="btn btn-nav" onclick="javascript:location.href='seguimiento-pendientes.html'">Seguimiento de Pendientes</span>
+            <span class="btn btn-nav" onclick="javascript:location.href='index.html'">Salir</span>
+        </nav>
+    </div>
+
+    <section id="solicitudes" class="animated fadeIn">
+        <h1 class="section-title">Solicitudes de Material</h1>
+        <div class="solicitud-block">
+            <div>
+                <h5>Anunciante</h5>The Avengers
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Marca</h5>Capi Shield
+                </div>
+                <div>
+                    <h5>Producto</h5>Escudo de aleación  de vibranium y adamantium
+                </div>
+            </div>
+            <div>
+                <h5>Campaña</h5>El juego final
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Agencia de publicidad</h5>Marvel
+                </div>
+                <div>
+                    <h5>Usuario de Agencia</h5>Tony Stark
+                </div>
+            </div>
+            
+            <div class="titles-versions">
+                <h5>Título / Versión</h5>
+                <div class="collap">
+                    <span>El juego final versión 1 sin spoilers</span>
+                    <span>El juego final versión 2</span>
+                    <span>El juego final versión 3 con spoilers</span>
+                </div>
+                <span class="more btn-more"></span>
+            </div>
+            <span id="ver_material" class="btn btn-default btn-number">Material: <span class="num-into">3</span></span>
+        </div>
+        
+        <div class="solicitud-block">
+            <div>
+                <h5>Anunciante</h5>ACME
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Marca</h5>CAZA CORRECAMINOS
+                </div>
+                <div>
+                    <h5>Producto</h5>TRAMPA CORRECAMINOS
+                </div>
+            </div>
+            <div>
+                <h5>Campaña</h5>ATRAPAME SI PUEDES
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Agencia de publicidad</h5>PORKY & LUCAS
+                </div>
+                <div>
+                    <h5>Usuario de Agencia</h5>El COYOTE
+                </div>
+            </div>
+
+            <div class="titles-versions">
+                <h5>Título / Versión</h5>
+                <div class="collap">
+                    <span>El juego final versión 1 sin spoilers</span>
+                </div>
+            </div>
+            <span id="ver_material" class="btn btn-default btn-number">Material: <span class="num-into">1</span></span>
+        </div>
+        <div class="solicitud-block">
+            <div>
+                <h5>Anunciante</h5>The Avengers
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Marca</h5>Capi Shield
+                </div>
+                <div>
+                    <h5>Producto</h5>Escudo de aleación  de vibranium y adamantium
+                </div>
+            </div>
+            <div>
+                <h5>Campaña</h5>El juego final
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Agencia de publicidad</h5>Marvel
+                </div>
+                <div>
+                    <h5>Usuario de Agencia</h5>Tony Stark
+                </div>
+            </div>
+            
+            <div class="titles-versions">
+                <h5>Título / Versión</h5>
+                <div class="collap">
+                    <span>El juego final versión 1 sin spoilers</span>
+                    <span>El juego final versión 2</span>
+                    <span>El juego final versión 3 con spoilers</span>
+                </div>
+                <span class="more btn-more"></span>
+            </div>
+            <span id="ver_material" class="btn btn-default btn-number">Material: <span class="num-into">3</span></span>
+        </div>
+        <div class="solicitud-block">
+            <div>
+                <h5>Anunciante</h5>ACME
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Marca</h5>CAZA CORRECAMINOS
+                </div>
+                <div>
+                    <h5>Producto</h5>TRAMPA CORRECAMINOS
+                </div>
+            </div>
+            <div>
+                <h5>Campaña</h5>ATRAPAME SI PUEDES
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Agencia de publicidad</h5>PORKY & LUCAS
+                </div>
+                <div>
+                    <h5>Usuario de Agencia</h5>El COYOTE
+                </div>
+            </div>
+
+            <div class="titles-versions">
+                <h5>Título / Versión</h5>
+                <div class="collap">
+                    <span>ATRAPAME SI PUEDES 1 sin spoilers</span>
+                    <span>ATRAPAME SI PUEDES 2</span>
+                </div>
+                <span class="more btn-more"></span>
+                
+            </div>
+            <span id="ver_material" class="btn btn-default btn-number">Material: <span class="num-into">2</span></span>
+        </div>
+
+    </section>
+
+    <section id="materiales" class="oculto animated fadeIn faster">
+        <span id="back_solicitudes" class="btn btn-back"><i class="fa fa-angle-left"></i></span>
+        <h2 class="section-title">Materiales</h2>
+        
+        <div class="solicitud-block">
+            <div class="sub-block-row">
+                <div>
+                    <h5>ID</h5>AMASV_BR-10009200
+                </div>
+                <div>
+                    <h5>Anunciante</h5>The Avengers
+                </div>
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Marca</h5>Capi Shield
+                </div>
+                <div>
+                    <h5>Producto</h5>Escudo de aleación  de vibranium y adamantium
+                </div>
+            </div>
+            <div>
+                <h5>Campaña</h5>El juego final
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Agencia de publicidad</h5>Marvel
+                </div>
+                <div>
+                    <h5>Usuario de Agencia</h5>Tony Stark
+                </div>
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Título / Versión</h5>
+                    El juego final versión 1 sin spoilers
+                </div>
+                <div>
+                    <h5>Fecha Límite</h5>2019-07-30 / 17:00:00
+                </div>
+                <div>
+                    <h5>Duración</h5>
+                    0:30
+                </div>
+                <div class="titles-versions">
+                    <h5>Destinos</h5>
+                    <span>Mega</span>
+                    <span>Canal de la Santísima Trinidad de San Petersburgo</span>
+                    <span>TVN</span>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="solicitud-block">
+            <div class="sub-block-row">
+                <div>
+                    <h5>ID</h5>AMASV_BR-10009200
+                </div>
+                <div>
+                    <h5>Anunciante</h5>The Avengers
+                </div>
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Marca</h5>Capi Shield
+                </div>
+                <div>
+                    <h5>Producto</h5>Escudo de aleación  de vibranium y adamantium
+                </div>
+            </div>
+            <div>
+                <h5>Campaña</h5>El juego final
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Agencia de publicidad</h5>Marvel
+                </div>
+                <div>
+                    <h5>Usuario de Agencia</h5>Tony Stark
+                </div>
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Título / Versión</h5>
+                    El juego final versión 1 sin spoilers
+                </div>
+                <div>
+                    <h5>Fecha Límite</h5>2019-07-30 / 17:00:00
+                </div>
+                <div>
+                    <h5>Duración</h5>
+                    0:30
+                </div>
+                <div class="titles-versions">
+                    <h5>Destinos</h5>
+                    <span>Mega</span>
+                    <span>Canal de la Santísima Trinidad de San Petersburgo</span>
+                    <span>TVN</span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="solicitud-block">
+            <div class="sub-block-row">
+                <div>
+                    <h5>ID</h5>AMASV_BR-10009200
+                </div>
+                <div>
+                    <h5>Anunciante</h5>The Avengers
+                </div>
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Marca</h5>Capi Shield
+                </div>
+                <div>
+                    <h5>Producto</h5>Escudo de aleación  de vibranium y adamantium
+                </div>
+            </div>
+            <div>
+                <h5>Campaña</h5>El juego final
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Agencia de publicidad</h5>Marvel
+                </div>
+                <div>
+                    <h5>Usuario de Agencia</h5>Tony Stark
+                </div>
+            </div>
+            <div class="sub-block-row">
+                <div>
+                    <h5>Título / Versión</h5>
+                    El juego final versión 1 sin spoilers
+                </div>
+                <div>
+                    <h5>Fecha Límite</h5>2019-07-30 / 17:00:00
+                </div>
+                <div>
+                    <h5>Duración</h5>
+                    0:30
+                </div>
+                <div class="titles-versions">
+                    <h5>Destinos</h5>
+                    <span>Mega</span>
+                    <span>Canal de la Santísima Trinidad de San Petersburgo</span>
+                    <span>TVN</span>
+                </div>
+            </div>    
+        </div>
+
+    </section>
+
+    <footer>
+
+    </footer>
+    <script src="src/js/jquery-3.4.1.min.js"></script>
+    <script src="src/js/app.js"></script>
+</body>
+</html>
