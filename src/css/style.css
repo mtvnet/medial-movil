@@ -8,21 +8,14 @@ html {
     box-sizing: border-box;
     min-height: 100%;
     overflow-x: hidden;
-    overscroll-behavior-y: contain;
-    -webkit-user-select: none;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
 }
 
 body {
     position: relative;
     width: 100%;
     margin: 0;
-    background: rgb(2,78,98);
-    background: linear-gradient(315deg, rgba(2,78,98,1) 0%, rgba(0,170,205,1) 22%, rgba(133,221,186,1) 75%, rgba(0,139,153,1) 100%);
-
-    background: rgb(0,131,152);
-background: linear-gradient(329deg, rgba(0,131,152,1) 0%, rgba(6,179,203,1) 0%, rgba(30,183,198,1) 12%, rgba(6,134,147,1) 90%);
+    background: rgb(1,176,182);
+    background: linear-gradient(180deg, rgba(1,176,182,1) 0%, rgba(8,126,138,1) 100%);
 
     color: #4c3f4c;
     text-rendering: optimizeLegibility;
@@ -33,18 +26,23 @@ background: linear-gradient(329deg, rgba(0,131,152,1) 0%, rgba(6,179,203,1) 0%, 
     font-size: 87.5%;
     line-height: 1.1;
 }
+html, body{
+    overscroll-behavior-y: contain;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none; 
+}
 header{
     width: 100%;
-    height: 40px;
+    height: 80px;
     display: block;
     z-index: 999;
     top: 0px;
     margin: auto;
     background-color: transparent;
-    padding: .7em 0 !important;
-    color: #555;
+    padding: 1.5rem 0 !important;
 }
-header img{max-height: 30px; margin-top: -.38rem;margin-left: 10px}
+header img{max-height: 30px; margin-left: 10px; margin-top: 2px;}
 
 .menu{
     position: fixed;
@@ -63,7 +61,7 @@ header img{max-height: 30px; margin-top: -.38rem;margin-left: 10px}
 	flex-wrap: nowrap;
 	justify-content: flex-start;
     align-items: stretch;
-    padding: 40px 20px;
+    padding: 80px 20px;
 }
 .menu nav span.btn{text-align: left; margin-bottom: 10px;}
 
@@ -119,8 +117,8 @@ div.aside-right .center-item{font-size:1.4rem}
 div.titles-versions + span.btn-number{margin-left: auto;margin-right: 15px;}
 .section-title{text-align: center;font-size: .85rem;
     color: #fff;
-    margin-top: -10px;
-    margin-bottom: 15px;}
+    margin-top: -27px;
+    margin-bottom: 25px;}
 
 .collap{ height: 0px; overflow: hidden;}
 .titles-versions .collap{ height: 15px;}
@@ -133,7 +131,7 @@ div.titles-versions + span.btn-number{margin-left: auto;margin-right: 15px;}
 /* LOGIN */
 body.login{
     background: rgb(0,131,152);
-    background: linear-gradient(329deg, rgba(0,131,152,1) 0%, rgba(6,166,189,1) 0%, rgba(28,171,185,1) 12%, rgba(8,126,138,1) 90%);
+    background: linear-gradient(180deg, rgba(1,176,182,1) 0%, rgba(8,126,138,1) 100%);
 }
 body.login a{color:#fff}
 body.login a:hover{color:rgb(204, 237, 240)}
@@ -256,20 +254,20 @@ input[type='text']:focus, input[type='email']:focus, input[type='password']:focu
 }
 .btn-menu{
     float: right;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     color: #fff;
     font-weight: 300;
     position: absolute;
     right: 2px;
-    top: 0;
+    top: 18px;
     z-index: 100;
 }
 .btn-back{
     float: left;
     position: absolute;
-    margin-top: -26px;
+    margin-top: -50px;
     margin-left: -6px;
-    font-size: 1.9rem;
+    font-size: 2.3rem;
     color: #fff;
 }
 .btn-number{border: 0}
