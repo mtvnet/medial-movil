@@ -1,4 +1,4 @@
-
+importScripts('src/js/sw-utils.js');
 
 const STATIC_CACHE    = 'static-v1';
 const DYNAMIC_CACHE   = 'dynamic-v1';
