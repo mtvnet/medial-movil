@@ -1,3 +1,9 @@
+
+
+if ( navigator.serviceWorker ) {
+  navigator.serviceWorker.register( '/medial-movil/' );
+}
+
 var solicitudesMat   = $('#solicitudes');
 var verMaterial      = $('#ver_material');
 var volverSolicitud  = $('#back_solicitudes');
