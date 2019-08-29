@@ -1,7 +1,7 @@
 
 
 if ( navigator.serviceWorker ) {
-  navigator.serviceWorker.register( '/medial-movil/' );
+  navigator.serviceWorker.register( '/medial-movil/sw.js' );
 }
 
 var solicitudesMat   = $('#solicitudes');
