@@ -1,9 +1,9 @@
 {
-    "short_name": "A+V",
+    "short_name": "A+V Solicitudes",
     "name": "A+V Solicitudes de material",
     "start_url": "index.html",
-    "background_color": "#078e9a",
-    "theme_color": "#078e9a",
+    "background_color": "#01b0b6",
+    "theme_color": "#01b0b6",
     "display": "standalone",
     "orientation": "portrait",
     "icons": [
