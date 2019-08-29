@@ -132,7 +132,8 @@ body.login{
 }
 body.login a{color:#fff}
 body.login a:hover{color:rgb(204, 237, 240)}
-body.login .section-title{text-align: right}
+body.login .section-title{text-align: right;margin-right: 15px}
+body.login header img{margin-left: 15px;}
 .login-block{
     max-width: 360px;
     padding: 0 15px;
