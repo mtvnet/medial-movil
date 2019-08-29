@@ -6,8 +6,10 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 
 
 const APP_SHELL = [
-    // '/',
     'index.html',
+    'solicitudes.html',
+    'seguimiento-pendientes.html',
+    'seguimiento-envios.html',
     'src/css/style.css',
     'src/img/logo.png',
     'src/img/sprite-icos.png',
