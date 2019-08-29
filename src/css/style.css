@@ -40,9 +40,9 @@ header{
     top: 0px;
     margin: auto;
     background-color: transparent;
-    padding: 1.5rem 0 !important;
+    padding: 1.8rem 0 !important;
 }
-header img{max-height: 30px; margin-left: 10px; margin-top: 2px;}
+header img{max-height: 30px; margin-left: 10px; margin-top: 3px;}
 
 .menu{
     position: fixed;
@@ -114,7 +114,7 @@ div.aside-right .center-item{font-size:1.4rem}
 div.titles-versions + span.btn-number{margin-left: auto;margin-right: 15px;}
 .section-title{text-align: center;font-size: .85rem;
     color: #fff;
-    margin-top: -27px;
+    margin-top: -24px;
     margin-bottom: 25px;}
 
 .collap{ height: 0px; overflow: hidden;}
@@ -255,8 +255,8 @@ input[type='text']:focus, input[type='email']:focus, input[type='password']:focu
     color: #fff;
     font-weight: 300;
     position: absolute;
-    right: 2px;
-    top: 18px;
+    right: 5px;
+    top: 23px;
     z-index: 100;
 }
 .btn-back{
