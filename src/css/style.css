@@ -92,11 +92,8 @@ div.aside-left,div.aside-right{margin:0;padding:0; border:0}
 div.aside-left{width:85%}
 div.aside-right{
     width:15%;
-    margin-top: -10px;
-    margin-bottom: -10px;
     padding-left: 4px;
-    background: rgb(255,255,255);
-background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(234,238,241,1) 100%);
+    border-left: 1px solid #eee
 }
 div.aside-right h5{
     font-size: .6rem;
